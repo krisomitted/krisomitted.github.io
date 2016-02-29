@@ -1,0 +1,177 @@
+/* CSS Document */
+
+body {
+  font-family: arial;
+  font-size:13px;
+}
+
+#shell {
+  margin-left:200px;
+  width:350px;
+}
+
+#bar{
+  background-image: -webkit-gradient(
+  	linear,
+  	left bottom,
+  	left top,
+  	color-stop(0, #FF0000),
+  	color-stop(1, #0000FF)
+  );
+  background-image: -o-linear-gradient(top, #FF0000 0%, #0000FF 100%);
+  background-image: -moz-linear-gradient(top, #FF0000 0%, #0000FF 100%);
+  background-image: -webkit-linear-gradient(top, #FF0000 0%, #0000FF 100%);
+  background-image: -ms-linear-gradient(top, #FF0000 0%, #0000FF 100%);
+  background-image: linear-gradient(to top, #FF0000 0%, #0000FF 100%);
+width:50px;
+height:40px;
+position:fixed;
+margin-left:700px;
+margin-top:600px;
+color:#fff;
+font-size:9px;
+text-align:center;
+padding:20px 10px 10px 10px;
+}
+
+h1 {
+  margin-left:-50px;
+  text-align:center;
+  width:400px;;
+  color:#0000ff;
+  -webkit-text-stroke: 1px white;
+  font-size:100px;
+  background-color:#0000ff;
+}
+
+h2 {
+  margin-left:-50px;
+  text-transform: uppercase;
+}
+
+h3 {
+font-size:15px;
+text-transform: lowercase;
+}
+
+p {
+  margin-bottom:50px;
+}
+
+li{
+  font-size:10px;
+  font-weight:lighter;
+}
+
+ul{
+  margin-bottom:-35px;
+}
+
+#redbox{
+  background-color: #ff0000;
+  padding:20px;
+  color:#fff;
+}
+
+#redbox a{
+  color:#fff;
+}
+
+#orangebox{
+  background-color: #ffa500;
+  padding:20px;
+  color:#fff;
+}
+
+#orangebox a{
+  color:#fff;
+}
+
+#yellowbox{
+  background-color: #ffe700;
+  padding:20px;
+  color:#fff;
+}
+
+#yellowbox a{
+  color:#fff;
+}
+
+#greenbox{
+  background-color: #008000;
+  padding:20px;
+  color:#fff;
+}
+
+
+#greenbox a{
+  color:#fff;
+}
+
+#bluebox{
+  background-color: #0000ff;
+  padding:20px;
+  color:#fff;
+}
+
+#bluebox a{
+  color:#fff;
+}
+
+#violetbox{
+  background-color: #912CEE;
+  padding:20px;
+  color:#fff;
+}
+
+#violetbox a{
+  color:#fff;
+}
+
+#blackbox{
+  background-color: #000;
+  padding:20px;
+  color:#fff;
+}
+
+#blackbox a{
+  color:#fff;
+}
+
+#whitebox{
+  border: 3px black solid;
+  padding:20px;
+  color:#000;
+}
+
+#whitebox a{
+  color:#000;
+}
+
+.red {
+  color: #ff0000;
+}
+
+.green{
+  color: #00FF00;
+}
+
+.blue{
+  color: #0000ff;
+}
+
+.cyan{
+  color: #00ffff;
+}
+
+.magenta{
+  color: #ff00ff;
+}
+
+.yellow{
+  color: #ffff00;
+}
+
+.knockout{
+  color: #000;
+}
