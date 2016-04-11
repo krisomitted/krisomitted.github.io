@@ -1,8 +1,14 @@
-body{
-  font-family:sans-serif;
-  font-size:14px;
+body {
+  font-family:'Quicksand', sans-serif;;
+  font-size:15px;
   line-height: 150%;
   letter-spacing:1px;
+  font-weight:700;
+}
+
+a {
+  text-decoration: none;
+  color: #707070;
 }
 
 header {
@@ -12,6 +18,7 @@ header {
 
 header img {
   max-width:100%;
+  margin-bottom:40px;
 }
 
 h2 {
@@ -25,9 +32,11 @@ h2 {
 }
 
 h3 {
-text-align: center;
-letter-spacing: 1px;
-line-height: auto;
+  font-size:17px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: auto;
 }
 
 h4{
@@ -40,10 +49,8 @@ h4{
   line-height: auto;
 }
 
-
 h5 {
-  font-weight:lighter;
-  font-size:12px;
+  font-size:13px;
   padding:20px;
   letter-spacing:1px;
   word-spacing: 2px;
@@ -51,6 +58,7 @@ h5 {
   line-height: auto;
 }
 
+/* container */
 #content {
   background-color:#ffe6cc;
   max-width:800px;
@@ -58,14 +66,10 @@ h5 {
   padding:20px;
 }
 
+/* line seperator*/
 .line {
   border-top:5px solid black;
   margin-bottom:20px;
-}
-
-.foot {
-  text-align:center;
-  font-size: 11px;
 }
 
 .banner img {
@@ -83,12 +87,18 @@ h5 {
   padding:18px;
 }
 
-.social img {
-  max-width:28%;
-  padding:5px;
-}
-
 .promo img {
   margin-top:20px;
   max-width:100%;
+}
+
+/*social media icons*/
+.space {
+  padding:10px;
+}
+
+/*footer*/
+.foot {
+  text-align:center;
+  font-size: 11px;
 }
