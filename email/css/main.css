@@ -11,13 +11,19 @@ a {
   color: #707070;
 }
 
+img {
+  max-width:100%;
+  min-width: 100%;
+}
+
 header {
   height:auto;
   text-align:center;
 }
 
-header img {
-  max-width:100%;
+img#logo{
+  max-width: 75%;
+  min-width: 75%;
   margin-bottom:40px;
 }
 
@@ -56,11 +62,6 @@ h5 {
   word-spacing: 2px;
   text-align:center;
   line-height: auto;
-}
-
-img {
-  max-width:100%;
-  min-width:100%;
 }
 
 /* container */
