@@ -16,10 +16,16 @@ body {
 }
 
 #title a:hover {
-background-color:#FFF;
-color:#000;
-padding:20px;
+  background-color:#FFF;
+  color:#000;
+  padding:20px;
 }
+
+#title:hover body:hover {
+  background-image:none;
+  background-color:#000;
+}
+
 
 #title {
   margin-top:25%;
