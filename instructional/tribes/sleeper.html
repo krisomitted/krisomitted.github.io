@@ -1,7 +1,4 @@
 <!DOCTYPE html>
-
-<!-- they just sleep -->
-
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -13,29 +10,76 @@
 
 <link href='https://fonts.googleapis.com/css?family=UnifrakturCook:700' rel='stylesheet' type='text/css'>
 
-<link rel="icon" type="image/png" href="images/circle.png">
+<link rel="icon" type="image/png" href="../images/circle.png">
 
 	<title>TRIBES OF THE SUBWAY</title>
-    <!-- grid css -->
-      <link rel="stylesheet" href="css/col.css" media="all">
-      <link rel="stylesheet" href="css/2cols.css" media="all">
-      <link rel="stylesheet" href="css/3cols.css" media="all">
-      <link rel="stylesheet" href="css/4cols.css" media="all">
-      <link rel="stylesheet" href="css/5cols.css" media="all">
-      <link rel="stylesheet" href="css/6cols.css" media="all">
-      <link rel="stylesheet" href="css/7cols.css" media="all">
-      <link rel="stylesheet" href="css/8cols.css" media="all">
-      <link rel="stylesheet" href="css/9cols.css" media="all">
-      <link rel="stylesheet" href="css/10cols.css" media="all">
-      <link rel="stylesheet" href="css/11cols.css" media="all">
-      <link rel="stylesheet" href="css/12cols.css" media="all">
+	<!-- grid css -->
+		<link rel="stylesheet" href="../css/grid/col.css" media="all">
+		<link rel="stylesheet" href="../css/grid/2cols.css" media="all">
+		<link rel="stylesheet" href="../css/grid/3cols.css" media="all">
+		<link rel="stylesheet" href="../css/grid/4cols.css" media="all">
+		<link rel="stylesheet" href="../css/grid/5cols.css" media="all">
+		<link rel="stylesheet" href="../../css/grid/6cols.css" media="all">
+		<link rel="stylesheet" href="../css/grid/7cols.css" media="all">
+		<link rel="stylesheet" href="../css/grid/8cols.css" media="all">
+		<link rel="stylesheet" href="../css/grid/9cols.css" media="all">
+		<link rel="stylesheet" href="../css/grid/10cols.css" media="all">
+		<link rel="stylesheet" href="../css/grid/11cols.css" media="all">
+		<link rel="stylesheet" href="../css/grid/12cols.css" media="all">
 
-      <!-- custom css -->
-			<link rel="stylesheet" href="css/main.css" media="all">
+		<!-- custom css -->
+		<link rel="stylesheet" href="../css/all.css" media="all">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+
+			<script src="jquery.js"></script>
+			<script>
+			$(document).ready(function(){
+				$("#logo").click(function(){
+					$("#navi").slideToggle("fast");
+				});
+			});
+			</script>
+
+			<script src="jquery.js"></script>
+			<script>
+			$(document).ready(function(){
+				$("#tribes").click(function(){
+					$("#tribelist").slideToggle("fast");
+				});
+			});
+			</script>
 
 </head>
 
 <body>
+
+	<div class="section group">
+	<div class="center">
+	<span id="logo">TRIBES OF THE SUBWAY</span>
+	<div id="navi">
+
+	<div id="home"><a href="../main.html">home</a></div>
+
+	<div id="about"><a href="../about-contact.html">About</a></div>
+
+	<div id="tribes">Tribes</div>
+		<div id="tribelist">
+			<a href="queensguard.html" class="tribelink">Queen's Guard</a><br>
+			<a href="exotics.html" class="tribelink">Exotic</a><br>
+			<a href="gino.html" class="tribelink">G.I. NO</a><br>
+			<a href="hog.html" class="tribelink">Hog</a><br>
+			<a href="irdc.html" class="tribelink">IRDC</a><br>
+			<a href="pack.html" class="tribelink">Pack</a><br>
+			<a href="showtime.html" class="tribelink">Showtime</a><br>
+			<a href="sleeper.html" class="tribelink">Sleeper</a><br>
+		</div>
+
+	<div id="faq"><a href="../faq.html">FAQ</a></div>
+	</div>
+	</div>
+
+
 </body>
 
 </html>
