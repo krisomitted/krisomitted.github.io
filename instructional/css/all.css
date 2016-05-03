@@ -172,7 +172,7 @@ p {
 
 #contain3 {
     text-align:center;
-    margin-top:20px;
+    margin-top:-10px;
 }
 
 #form-main{
@@ -355,6 +355,11 @@ text-align: center;
   margin:10px;
 }
 
+.etc:hover {
+background-color: #FFF;
+color:#000;
+}
+
 .line {
   border-bottom: 2px solid #FFF;
   margin-left:10px;
@@ -363,16 +368,4 @@ text-align: center;
 
 .stars {
   font-size: 17px;
-}
-
-#s-m-t-tooltip {
-max-width:100px;
-padding:5px;
-background: #000;
-border:1px solid #FFF;
-font-size:10px;
-letter-spacing:1px;
-text-transform:lowercase;
-color:#FFF;
-z-index:999999999999999999999999999999999999;
 }
